@@ -1,0 +1,14 @@
+
+# Editors
+.idea
+.vscode
+
+# Sbt
+target/
+.ivy
+
+# Spark local running files
+derby.log
+metastore_db
+spark-warehouse
+
