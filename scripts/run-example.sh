@@ -8,7 +8,6 @@
 docker run \
     --rm \
     -v $(pwd):/home/work/project \
-    -v $(pwd)/.ivy:/sbtlib \
     jacintoarias/docker-sparkdev \
     spark-submit \
     --class es.jarias.spark.examples.ml.bnc.$1 \
